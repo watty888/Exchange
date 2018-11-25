@@ -1,4 +1,9 @@
-abstract class Currency(nm: String, vl: Int) {
-  protected val name = nm
-  protected val value = vl
+/**
+  * @author Elcin Bunyatov
+  * Matrikelnummer: 01449747
+  */
+
+abstract class Currency {
+  val name: String
+  val value: Double
 }
